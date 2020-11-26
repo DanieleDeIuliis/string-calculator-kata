@@ -36,4 +36,10 @@ class SampleTest {
         assertEquals(3, stringCalculator.add("1,2"))
     }
 
+    @Test
+    fun addTwoNumberWithNewLineSeparatorString(){
+        val stringCalculator = StringCalculator()
+        assertEquals(3, stringCalculator.add("1\n2"))
+    }
+
 }
