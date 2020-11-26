@@ -7,6 +7,7 @@ class SampleTest {
 
     @Test
     fun name() {
-        assertTrue(true)
+        val stringCalculator = StringCalculator()
+        assertTrue(stringCalculator != null)
     }
 }
