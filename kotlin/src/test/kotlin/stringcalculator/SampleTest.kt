@@ -6,7 +6,7 @@ import org.junit.Test
 class SampleTest {
 
     @Test
-    fun name() {
+    fun creationOfAStringCalculator() {
         val stringCalculator = StringCalculator()
         assertTrue(stringCalculator != null)
     }
