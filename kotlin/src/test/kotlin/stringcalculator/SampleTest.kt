@@ -42,4 +42,10 @@ class SampleTest {
         assertEquals(3, stringCalculator.add("1\n2"))
     }
 
+    @Test
+    fun addTwoNumberCustomSeparatorString(){
+        val stringCalculator = StringCalculator()
+        assertEquals(3, stringCalculator.add("//$1$2"))
+    }
+
 }
