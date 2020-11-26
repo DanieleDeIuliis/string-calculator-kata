@@ -30,4 +30,10 @@ class SampleTest {
         assertEquals(1, stringCalculator.add("1"))
     }
 
+    @Test
+    fun addTwoNumberString(){
+        val stringCalculator = StringCalculator()
+        assertEquals(3, stringCalculator.add("1,2"))
+    }
+
 }
