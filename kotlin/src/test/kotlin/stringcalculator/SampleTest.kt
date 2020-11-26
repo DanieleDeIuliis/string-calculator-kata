@@ -24,4 +24,10 @@ class SampleTest {
         assertEquals(0, stringCalculator.add("     "))
     }
 
+    @Test
+    fun addOneNumberString(){
+        val stringCalculator = StringCalculator()
+        assertEquals(1, stringCalculator.add("1"))
+    }
+
 }
